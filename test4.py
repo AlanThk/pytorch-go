@@ -6,7 +6,7 @@ import sys
 # os.system(f"mv {src} {dst}")
 # os.system("mv /home/siok002/CODE/vispectdl-development/dataset/256/img_gerber/0.png /home/siok002/CODE/vispectdl-development/dataset/256/")
 
-in_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256_test/img/"
+in_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256_test/img/"test7
 src_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256/img_gerber/"
 out_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256_test/img_gerber/"
 
