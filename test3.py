@@ -25,7 +25,7 @@ res_folder_path = Path(r"/home/siok002/res/defect/res")
 out_folder_path = Path(r"/home/siok002/res/defect/output")
 
 opt_png_files = [f for f in os.listdir(opt_folder_path) if f.endswith('.png')]
-opt_png_files = sorted(opt_png_files, key=lambda x: int(re.search(r'\d+', x).group()))
+opt_png_files = sorted(opt_png_files, key=lambda x: int(re.search(r'\d+', x).group()))999
 opt_png_files = sorted(opt_png_files)
 opt_image_arrays = []
 for filename in opt_png_files:
