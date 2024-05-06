@@ -12,7 +12,7 @@ from PIL import Image, ImageChops
 # print('6872.png rms: ', np.sqrt(mse))
 # print('6872.png diff_max: ', diff_max)
 
-in_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256_test/img/"
+in_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256_test/img/"test7
 out_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/predicted-output/res/"
 
 in_png_files = [f for f in os.listdir(in_folder_path) if f.endswith('.png')]
