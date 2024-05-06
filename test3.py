@@ -19,7 +19,7 @@ from pathlib import Path
 # print('6872.png rms: ', np.sqrt(mse))
 # print('6872.png diff_max: ', diff_max)
 
-opt_folder_path = Path(r"/home/siok002/res/defect/256_defect_optical")
+opt_folder_path = Path(r"/home/siok002/res/defect/256_defect_optical")test7
 ras_folder_path = Path(r"/home/siok002/res/defect/256_defect_raster")
 res_folder_path = Path(r"/home/siok002/res/defect/res")
 out_folder_path = Path(r"/home/siok002/res/defect/output")
