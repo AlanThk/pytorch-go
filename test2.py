@@ -16,7 +16,7 @@ in_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/256_test/img/
 out_folder_path = "/home/siok002/CODE/vispectdl-development/dataset/predicted-output/res/"jzjzj
 
 in_png_files = [f for f in os.listdir(in_folder_path) if f.endswith('.png')]
-in_image_arrays = []
+in_image_arrays = []dfgsdfhsdh
 for filename in in_png_files:
     in_img_path = os.path.join(in_folder_path, filename)
     with Image.open(in_img_path) as img:
